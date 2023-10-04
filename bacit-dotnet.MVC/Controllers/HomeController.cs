@@ -24,8 +24,6 @@ namespace bacit_dotnet.MVC.Controllers
 
             var model = new RazorViewModel
             {
-                Content = "En time til ørsta rådhus",
-                AdditionalData = "blablabla"
             };
             return View("Index", model);
         }

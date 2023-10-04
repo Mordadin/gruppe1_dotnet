@@ -3,11 +3,32 @@
 }
 
 @model bacit_dotnet.MVC.Models.RazorViewModel
-<h2>Et av de store spørsmålene vi må klare å svare på er, 
-    hvor lang tid tar det å gå til ørsta rådhus?  </h2>
+
 @{
     
     <h1>@Model.Content</h1>
     <h2>@Model.AdditionalData</h2>
 }
 
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <div class="logo">Nøsted &</div>
+        <div class="nav-items">
+            <a href="/">Produkter</a>
+
+            <a href="/">Verksted</a>
+            <a href="/">Lager</a>
+            <a href="/">Vaktliste</a>
+            <a href="/">Service</a>
+        </div>
+    </nav>
+</body>
+</html>
