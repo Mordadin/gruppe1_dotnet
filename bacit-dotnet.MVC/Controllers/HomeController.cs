@@ -18,6 +18,11 @@ namespace bacit_dotnet.MVC.Controllers
         }
 
         [HttpGet]
+
+        public IActionResult Produkter()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             _logger.LogInformation("Index method called");
